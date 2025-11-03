@@ -457,3 +457,63 @@ h2{
 
 
 
+/*  TABLETS (≤ 992px)  */
+@media (max-width: 992px) {
+
+  .display{
+    font-size: 90px;
+  }
+
+  .lead{
+    font-size: 45px;
+  }
+
+  .section1,
+  .section2{
+    height:auto;
+    flex-direction:column;
+    text-align:center;
+    padding:60px 0;
+  }
+
+  .about-text{
+    max-width:420px;
+    height:auto;
+    font-size:1rem;
+  }
+
+  .PHO{
+    width:200px;
+  }
+}
+
+/*  MOBILE (≤ 576px)  */
+@media (max-width: 576px) {
+
+  .display{
+    font-size:55px;
+  }
+
+  .lead{
+    font-size:28px;
+  }
+
+  .about-text{
+    padding:15px;
+    max-width:300px;
+    font-size:0.9rem;
+  }
+
+  .PHO{
+    width:150px;
+  }
+
+  .projects-grid{
+    grid-template-columns:1fr;
+  }
+
+  .section1,
+  .section2{
+    padding:40px 0;
+  }
+}
