@@ -87,39 +87,61 @@ function App() {
 
       {/* 📞 Contact Section */}
       <section id="contact" className="py-5 bg-light">
-        <div className="container">
-          <h2 className="section-title text-center fw-bold mb-4">Contact Me</h2>
-          <form>
-            <div className="mb-3">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <input
-                type="email"
-                className="form-control"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <textarea
-                className="form-control"
-                rows="4"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" className="btn btn-warning text-dark">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
+  <div className="container">
+    <h2 className="section-title text-center fw-bold mb-4">Contact Me</h2>
+
+    {/* social links row */}
+    <div className="d-flex justify-content-center gap-4 mb-4 fs-3">
+
+      <a
+        href="https://instagram.com/yourusername"
+        target="_blank"
+        rel="noreferrer"
+        className="text-danger"
+      >
+        <i className="fab fa-instagram"></i>
+      </a>
+
+      <a
+        href="https://facebook.com/yourusername"
+        target="_blank"
+        rel="noreferrer"
+        className="text-primary"
+      >
+        <i className="fab fa-facebook"></i>
+      </a>
+
+      <a
+        href="https://wa.me/91XXXXXXXXXX"
+        target="_blank"
+        rel="noreferrer"
+        className="text-success"
+      >
+        <i className="fab fa-whatsapp"></i>
+      </a>
+
+    </div>
+
+    <form>
+      <div className="mb-3">
+        <input
+          type="email"
+          className="form-control"
+          placeholder="Your Email"
+          required
+        />
+      </div>
+
+      {/* removed text area field */}
+
+      <button type="submit" className="btn btn-warning text-dark">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+</section>
+
 
       {/* 💛 Footer */}
       <footer className="bg-dark text-white text-center py-4 mt-auto">
