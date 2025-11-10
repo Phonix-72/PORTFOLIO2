@@ -94,7 +94,7 @@ function App() {
     <div className="d-flex justify-content-center gap-4 mb-4 fs-3">
 
       <a
-        href="https://instagram.com/yourusername"
+        href="https://www.instagram.com/_aravindh_.__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
         target="_blank"
         rel="noreferrer"
         className="text-danger"
@@ -112,32 +112,24 @@ function App() {
       </a>
 
       <a
-        href="https://wa.me/91XXXXXXXXXX"
+        href="https://wa.me/916282878208"
         target="_blank"
         rel="noreferrer"
         className="text-success"
       >
         <i className="fab fa-whatsapp"></i>
       </a>
+      <a
+  href="mailto:caravind309@gmail.com"
+  target="_blank"
+  rel="noreferrer"
+  className="text-success"
+>
+  <i className="fas fa-envelope"></i>
+</a>
+
 
     </div>
-
-    <form>
-      <div className="mb-3">
-        <input
-          type="email"
-          className="form-control"
-          placeholder="Your Email"
-          required
-        />
-      </div>
-
-      {/* removed text area field */}
-
-      <button type="submit" className="btn btn-warning text-dark">
-        Send Message
-      </button>
-    </form>
 
   </div>
 </section>
