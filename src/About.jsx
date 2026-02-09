@@ -28,7 +28,7 @@ function About() {
         <p>
           I am <strong>Aravindh</strong>, a passionate Full Stack Developer with a strong foundation in backend technologies and a flair for crafting modern, responsive web interfaces.  
           I love combining creativity and logic to design scalable, user-focused solutions.
-          With expertise in <span class="highlight">Python</span>, <span class="highlight">Django</span>, and <span class="highlight">React</span>, I enjoy turning complex ideas into intuitive, efficient applications that empower users.
+          With expertise in <span class="highlight">Python</span>, <span class="highlight">Django</span>. I enjoy turning complex ideas into intuitive, efficient applications that empower users.
         </p>
         <a href="#projects" class="btn" >Explore My Projects</a>
       </div>
@@ -44,3 +44,4 @@ function About() {
 }
 
 export default About;
+
