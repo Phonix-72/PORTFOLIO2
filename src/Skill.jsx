@@ -35,7 +35,7 @@ function Skill(){
           <div className="row text-center">
             <div className="col-md-4 mb-4">
               <h5 className="fw-semibold text-dark">Web Technologies</h5>
-              {["HTML", "CSS", "JavaScript", "React", "Bootstrap", "PHP"].map(
+              {["HTML", "CSS", "JavaScript", "Bootstrap", "PHP"].map(
                 (skill) => (
                   <span
                     key={skill}
@@ -88,4 +88,5 @@ function Skill(){
       </>
     );
 }
+
 export default Skill;
